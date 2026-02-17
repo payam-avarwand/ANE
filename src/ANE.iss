@@ -1,12 +1,12 @@
 #define MyAppName "ANE"
 #define MyAppVersion "1.0"
 #define MyAppPublisher "Avarwand"
-#define MyAppURL "https://github.com/payam-avarwand/Avarwand-NE/releases/tag/ANE"
+#define MyAppURL "https://github.com/payam-avarwand/ANE"
 #define MyAppExeName "ANE 1.0 - portable.exe"
 #define MyAppIcon "D:\Payam Avarwand\My Repos\GitHub\Word-Books\Code\Avarwand Software Production\17- Avarwand NE\Visual\rename_filled_icon_200352.ico"
 #define MyVbsLauncher "ANE_Launcher.vbs"
 #define MyAppIconName "rename_filled_icon_200352.ico"
-#define MyAppFileVersion "1.0.5.15"
+#define MyAppFileVersion "1.0.5.20"
 
 [Setup]
 AppId={{ANE.com.yahoo@Avar_Payam}
@@ -21,7 +21,7 @@ AppUpdatesURL={#MyAppURL}
 DefaultDirName={autopf}\Avarwand\{#MyAppName}
 DefaultGroupName={#MyAppName}
 UninstallDisplayIcon={app}\lib\{#MyAppIconName}
-OutputDir="D:\Payam Avarwand\My Repos\GitHub\Avarwand\Software\Avarwand NE\installer"
+OutputDir="D:\Payam Avarwand\My Repos\GitHub\Avarwand\Software\ANE\installer"
 OutputBaseFilename={#MyAppName}-{#MyAppVersion}-Setup
 SetupIconFile={#MyAppIcon}
 SolidCompression=yes
@@ -39,7 +39,7 @@ Name: "english"; MessagesFile: "compiler:Default.isl"
 Name: "desktopicon"; Description: "{cm:CreateDesktopIcon}"; GroupDescription: "{cm:AdditionalIcons}"; Flags: unchecked
 
 [Files]
-Source: "D:\Payam Avarwand\My Repos\GitHub\Avarwand\Software\Avarwand NE\installer\ANE 1.0 - portable.exe"; DestDir: "{app}\lib"; Flags: ignoreversion
+Source: "D:\Payam Avarwand\My Repos\GitHub\Avarwand\Software\ANE\installer\ANE 1.0 - portable.exe"; DestDir: "{app}\lib"; Flags: ignoreversion
 Source: "{#MyAppIcon}"; DestDir: "{app}\lib"; Flags: ignoreversion
 
 
@@ -110,6 +110,3 @@ begin
     end;
   end;
 end;
-
-
-
